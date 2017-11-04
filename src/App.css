@@ -1,0 +1,46 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css';
+.leaflet-container {
+  width: 500px;
+  height: 500px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* 
+  Reset some of the default styles from leaflet. Remember not 
+  to change leaflet classes. Instead add your own class
+*/
+.custom-icon {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  position: relative;
+}
